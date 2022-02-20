@@ -1,0 +1,82 @@
+body{
+    background-color: #111111;
+}
+
+
+.caluclate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.del{
+    color: #fff;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+}
+
+.calculate-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 450px;
+    border: 1px solid #111;
+    background-color: #111;
+}
+
+.input-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-wrapper > input{
+    width: 340px;
+    height: 25px;
+    margin: 10px;
+}
+
+.count-buttons-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+.count-buttons-wrapper > input{
+    width: 50px;
+    height: 50px;
+    background-color: coral;
+    border: 1px solid coral;
+    color: #fff;
+    margin: 10px;
+    border-radius: 10px;
+}
+/*// js*/
+.count-active{
+    color: coral;
+    background-color:#fff;
+}
+
+.numbers-btn{
+    display: flex;
+    flex-wrap:wrap;
+    width: 350px
+}
+.numbers-btn > input{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    color: #fff;
+    background-color:green;
+    border: 1px solid green;
+    border-radius: 10px;
+}
+
+/*js number active*/
+.number-active{
+    background-color: white;
+    color: green;
+}
